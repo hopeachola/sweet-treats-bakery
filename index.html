@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,12 +49,12 @@
         }
 
         img {
-    width: 300px;
-    height: 300px;
-    max-width: 100%;
-    border-radius: 10px;
-}
-    
+            width: 300px;
+            height: 300px;
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
 
         .product {
             display: inline-block;
@@ -85,7 +85,12 @@
             color: white;
             padding: 12px 20px;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8e3b56;
         }
 
         footer {
@@ -108,6 +113,7 @@
         <a href="#contact">Contact Us</a>
     </nav>
 
+    <!-- Home Section -->
     <section id="home" class="welcome">
         <h2>Welcome to Our Bakery</h2>
 
@@ -122,14 +128,15 @@
         </p>
 
         <img
-            src="images/strawberry cake.jpg"
-            alt="A beautifully decorated cake">
+            src="strawberry cake.jpg"
+            alt="A beautifully decorated strawberry cake">
 
         <p>
             <a href="#products">Explore Our Delicious Treats</a>
         </p>
     </section>
 
+    <!-- Products Section -->
     <section id="products">
         <h2>Our Products</h2>
 
@@ -137,8 +144,8 @@
 
         <div class="product">
             <img
-                src="images/exclusive decorated cakes.jpg"
-                alt="Decorated Cakes">
+                src="exclusive decorated cakes.jpg"
+                alt="Exclusive decorated cakes">
 
             <h3>Exclusive Decorated Cakes</h3>
             <p>Beautiful cakes for your special day.</p>
@@ -146,8 +153,8 @@
 
         <div class="product">
             <img
-                src="images/cupcakes.jpg"
-                alt="Cupcakes">
+                src="cupcakes.jpg"
+                alt="Chocolate cupcakes">
 
             <h3>Chocolate Cupcakes</h3>
             <p>Soft, sweet and delicious cupcakes.</p>
@@ -155,7 +162,7 @@
 
         <div class="product">
             <img
-                src="images/chocolate cookies.jpg"
+                src="chocolate cookies.jpg"
                 alt="Freshly baked cookies">
 
             <h3>Freshly Baked Cookies</h3>
@@ -172,7 +179,7 @@
         </ul>
     </section>
 
-    <!-- Order form -->
+    <!-- Order Section -->
     <section id="order">
         <h2>Place an Order</h2>
 
@@ -215,12 +222,10 @@
 
         </form>
 
-        <p>
-            Note: This is our only website page.
-        </p>
+        <p>Note: This is our only website page.</p>
     </section>
 
-    <!-- Embedded map -->
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
 
@@ -252,3 +257,4 @@
 
 </body>
 </html>
+```
